@@ -8,7 +8,7 @@
 
 module Counter( 						    // Module declaration, name and I/O
     input Counter_Clock,			  // Clock 
-	  input Counter_Reset,			  // Reset
+    input Counter_Reset,			  // Reset
     output [7:0] Counter_Data 	// Output of data 8-bit width
     );
 
