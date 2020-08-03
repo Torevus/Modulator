@@ -6,4 +6,4 @@ List below contains main components:
 * Register.v
 
 In this case, the resolution of Counter and Register out signals equals 8.
-It can be shortend or expand changing one variable.
+It can be shortend or expand by changing one variable.
