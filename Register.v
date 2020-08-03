@@ -22,10 +22,10 @@ begin                           // Begin of process
   else                          // In antoher case select from list below
   
     case (PWM_Width)            // Start of case instruction
-      2'b00	  : Data_Out = 51;  // 20% of PWM-width
-      2'b01   : Data_Out = 102; // 40% of PWM-width
-      2'b10	  : Data_Out = 153; // 60% of PWM-width
-      2'b11   : Data_Out = 204; // 80% of PWM-width
+      2'b00	: Data_Out = 51;  // 20% of PWM-width
+      2'b01   	: Data_Out = 102; // 40% of PWM-width
+      2'b10	: Data_Out = 153; // 60% of PWM-width
+      2'b11	: Data_Out = 204; // 80% of PWM-width
     endcase                     // End of case
     
 end                             // End of process
