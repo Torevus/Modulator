@@ -4,5 +4,6 @@ List below contains main components:
 * Modulator_PWM.v
 * Counter.v
 * Register.v
+
 In this case, the resolution of Counter and Register out signals equals 8.
 It can be shortend or expand changing one variable.
