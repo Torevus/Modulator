@@ -5,5 +5,12 @@ List below contains main components:
 * Counter.v
 * Register.v
 
-In this case, the resolution of Counter and Register out signals equals 8.
-It can be shortend or expand by changing one variable.
+Modulator Features:
+- 8 bits resolution
+- f/2^8 - switching frequency; where f is the frequency of clock.
+- 4 different Duty-Cycles: 20, 40, 60, 80 %.
+- Asynchronous Reset
+
+In Test-Bench, you need to set two bits of control signal and instantiate a clock domain.
+
+(c) 2020, Karol Oniszczuk
